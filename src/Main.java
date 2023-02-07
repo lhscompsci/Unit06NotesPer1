@@ -14,7 +14,7 @@ public class Main {
         for(int i = 0; i < dave.length; i++)    //dave.length give the value of how many total spots there are
             dave[i] = i;
         System.out.println(Arrays.toString(dave));
-        System.out.println(dave[23]);
+       // System.out.println(dave[23]);     //causes an ArrayIndexOutOfBoundsException for reaching outside the range
 
     }
 }
