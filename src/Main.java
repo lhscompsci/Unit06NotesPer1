@@ -16,5 +16,18 @@ public class Main {
         System.out.println(Arrays.toString(dave));
        // System.out.println(dave[23]);     //causes an ArrayIndexOutOfBoundsException for reaching outside the range
 
+
+        //define an array of Monster objects
+        Monster[] list = new Monster[50];
+
+        System.out.println(Arrays.toString(list));
+        list[0] = new Monster();
+        list[1] = new Monster(33);
+        list[2] = new Monster(3,4);
+        list[3] = new Monster(10,10);
+        System.out.println(Arrays.toString(list));
+        list[1].setAge(45);
+        System.out.println(Arrays.toString(list));
+
     }
 }
